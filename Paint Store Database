@@ -1,0 +1,25 @@
+CREATE TABLE paints(ID INTEGER PRIMARY KEY,MEDIUM TEXT,BRAND TEXT,AISLE INTEGER, PRICE INTEGER, COLOR TEXT);
+
+INSERT into paints VALUES (1, "OIL", "WINSOR &NEWTON", 3, 13 , "BLUE" );
+INSERT into paints VALUES (2, "ACRYLIC", "WINSOR &NEWTON", 2, 5 ,"GREEN" );
+INSERT into paints VALUES (3, "WATERCOLOR", "WINSOR &NEWTON", 3, 10 ,"RED" );
+INSERT into paints VALUES (4, "GOUCHE", "WINSOR &NEWTON", 8, 13 ,"BLUE" );
+INSERT into paints VALUES (5, "OIL", "WINSOR &NEWTON", 3, 13 ,"BLUE" );
+INSERT into paints VALUES (6, "OIL", "WINSOR &NEWTON", 5, 13 ,"GREEN" );
+INSERT into paints VALUES (7, "ACRYLIC", "WINSOR &NEWTON", 3, 5 ,"BLUE" );
+INSERT into paints VALUES (8, "WATERCOLOR", "WINSOR &NEWTON", 3, 10 ,"RED" );
+INSERT into paints VALUES (9, "OIL", "WINSOR &NEWTON", 8, 13 ,"RED" );
+INSERT into paints VALUES (10, "GOUCHE", "WINSOR &NEWTON", 3, 13 ,"GREEN" );
+INSERT into paints VALUES (11, "GOUCHE", "WINSOR &NEWTON", 5, 13 ,"BLUE" );
+INSERT into paints VALUES (12, "WATERCOLOR", "WINSOR &NEWTON", 3, 10 ,"RED" );
+INSERT into paints VALUES (13, "ACRYLIC", "WINSOR &NEWTON", 3, 5 ,"RED" );
+INSERT into paints VALUES (14, "OIL", "WINSOR &NEWTON", 8, 13 ,"GREEN" );
+INSERT into paints VALUES (15, "OIL", "WINSOR &NEWTON", 3, 13 ,"BLUE" );
+
+
+SELECT SUM(PRICE)FROM PAINTS;
+SELECT * FROM PAINTS WHERE PRICE < 10 ORDER BY AISLE; 
+
+
+Check out my paint data base. Ive displayed the paint medium, brand,aisle numer, price and color for an easy to read table.
+Then i added a summary of the total price earned if the store was to sell all of those paints.

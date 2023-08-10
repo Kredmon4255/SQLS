@@ -1,2 +1,3 @@
-# SQLS
-SQLS Portfolio 
+# Kelsie Redmon's SQL
+
+### Welcome to my sql portfolio! This code repository contains examples of SQL I've written. Feel free to take a look and reach out if you have any questions.My email is Kredmon4255@gmail.com 
